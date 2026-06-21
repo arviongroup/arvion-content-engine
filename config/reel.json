@@ -1,0 +1,16 @@
+{
+  "_nota": "Rutas relativas a la ubicación de ESTE archivo. Ejemplo del reel 'Mientras duermes'.",
+  "out": "output/reel.mp4",
+  "size": [720, 1280], "clip_dur": 5.0, "xfade": 0.5,
+  "music": "../assets/music/01-calm-aspirational.mp3",
+  "scenes": [
+    {"video": "clips/s1.mp4", "fade": "in", "accent_y": 0.625,
+     "overlay": [{"lines": [["Mientras ", 0], ["duermes…", 1]], "y": 0.66, "size": 54}]},
+    {"video": "clips/s2.mp4", "accent_y": 0.585,
+     "overlay": [{"lines": [["tu IA atiende,", 0]], "y": 0.62, "size": 48},
+                 {"lines": [["agenda y ", 0], ["vende.", 1]], "y": 0.685, "size": 48}]},
+    {"video": "clips/s3.mp4", "fade": "out", "accent_y": 0.545, "brand": true,
+     "overlay": [{"lines": [["Despiertas con", 0]], "y": 0.58, "size": 46},
+                 {"lines": [["clientes ", 0], ["nuevos.", 1]], "y": 0.645, "size": 46}]}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "_nota": "Rutas de imagen relativas a ESTE archivo. Ejemplo '5 tareas que la IA hace'.",
+  "out_dir": "output/carousel", "size": [1080, 1350],
+  "slides": [
+    {"type": "cover", "image": "img/img1.png",
+     "title": [["5 tareas", false], ["que la IA ya hace", false], ["por tu empresa", true]],
+     "sub": "Guárdalo para no olvidarlo 👇"},
+    {"type": "content", "image": "img/img2.png", "num": 1, "title": "Responde",
+     "sub": ["clientes 24/7,", "sin mover un dedo."]},
+    {"type": "content", "image": "img/img3.png", "num": 2, "title": "Agenda",
+     "sub": ["reuniones sola y", "manda la invitación."]},
+    {"type": "content", "image": "img/img4.png", "num": 3, "title": "Cobra y hace",
+     "sub": ["seguimiento a tus", "facturas por ti."]},
+    {"type": "content", "image": "img/img5.png", "num": 4, "title": "Califica leads",
+     "sub": ["y te pasa solo", "los que valen."]},
+    {"type": "content", "image": "img/img6.png", "num": 5, "title": "Resume tu día",
+     "sub": ["y arma el reporte", "automáticamente."]},
+    {"type": "cta", "image": "img/img7.png",
+     "title": [["¿Quieres esto", false], ["en tu empresa?", true]],
+     "sub": "Síguenos y escríbenos."}
+  ]
+}
