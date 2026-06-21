@@ -16,7 +16,10 @@ Tono: profesional cercano, español neutro. Sin vender directo; CTA suave ("síg
 
 ## 2. Identidad visual (OBLIGATORIA, no cambiar)
 - Oscuro premium + **azul ARVION** + tipografía Sora (estilo "C").
-- Imágenes Higgsfield **SIN texto** (el texto lo pone el motor): siempre incluir en el prompt "no people, no text, no letters" y "deep navy and electric blue, cinematic, photorealistic, generous dark empty space for text".
+- **CALIDAD DE IMAGEN — CRÍTICO:** lee `assets/visual-prompts.md` y USA esos prompts. Cada imagen DEBE tener un **sujeto focal brillante y rico** (núcleo, hologramas, ciudad, partículas…), luz volumétrica, bloom, alto contraste, 4K cinematográfico. **PROHIBIDO:** fondos planos, vacíos, rejillas tenues con puntitos o siluetas borrosas (eso es un FALLO de calidad — regenera).
+- **VARIEDAD OBLIGATORIA:** usa una escena DISTINTA de la librería para cada imagen del lote (recorre la lista; no repitas encuadre). 23 imágenes = variedad real.
+- Imágenes Higgsfield **SIN texto** (el texto lo pone el motor): incluir siempre "no people, no text, no letters" y dejar espacio inferior para el texto.
+- **Antes de ensamblar, revisa cada imagen:** si salió plana/vacía, regénerala con otro prompt de la librería ANTES de seguir. La calidad es lo primero.
 
 ## 3. Producir cada REEL (3 escenas)
 Para cada reel:

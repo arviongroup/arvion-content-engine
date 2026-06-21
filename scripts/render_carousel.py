@@ -45,15 +45,17 @@ def render(cfg):
                 text(img, W, H, ln, 90, y, F_body(42), GRAY); y += 60
         else:  # cover / cta
             scrim_bottom(img, W, H, 0.62, 235)
-            accent(img, 90, H - 560)
-            y = H - 520
+            is_cover = s["type"] == "cover"
+            size = 104 if is_cover else 80
+            y = int(H * (0.40 if is_cover else 0.46))
+            accent(img, 90, y - 46)
             for seg, blue in s["title"]:
-                text(img, W, H, seg, 90, y, F_title(112 if s["type"]=="cover" and y==H-520 else 76),
-                     BLUE if blue else WHITE, glow=blue); y += 96
-            text(img, W, H, s["sub"], 90, H - 150, F_body(40), GRAY)
+                text(img, W, H, seg, 90, y, F_title(size), BLUE if blue else WHITE, glow=blue)
+                y += int(size * 1.15)
+            text(img, W, H, s["sub"], 90, y + 14, F_body(40), GRAY)
             if s["type"] == "cta":
-                f = F_title(58); t = "A R V I O N"
-                text(img, W, H, t, (W - int(f.getlength(t))) // 2, H - 150, f, WHITE)
+                f = F_title(48); t = "A R V I O N"
+                text(img, W, H, t, (W - int(f.getlength(t))) // 2, H - 180, f, WHITE)
         footer(img, W, H)
         p = os.path.join(out, f"slide{i}.png"); img.convert("RGB").save(p, quality=92); paths.append(p)
     print("CARRUSEL OK:", len(paths), "slides ->", out)
